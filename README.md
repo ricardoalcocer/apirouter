@@ -21,6 +21,7 @@ Open up your browser and navigate to **http://localhost:8080/api/sampleds/get/al
 # Creating modules
 
 The first line of each module defines a variable called qsActions:
+
       var qsActions=['get','order','page','per_page','limit','skip','columns','table'];
       
 These are the actions your module understands.  The client will send these values as value-pairs in the URL like so:
