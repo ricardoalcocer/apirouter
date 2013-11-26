@@ -1,5 +1,7 @@
 /*
 API Normalizer
+Created by Ricardo Alcocer
+License: alco.mit-license.org
 */
 var fs = require('fs');
 var express = require("express");
